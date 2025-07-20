@@ -25,7 +25,7 @@ const Header = () => {
         </a>
 
         {/* Navigation: Search & Avatar */}
-        <nav className="flex items-center gap-4 md:gap-4 w-full md:w-auto" aria-label="Site">
+        <nav className="flex items-center gap-4 md:gap-4 w-full md:w-auto" aria-label="NavigationSite">
           {/* Search */}
           {!isMobile && (
             <div className="relative w-full md:w-48">

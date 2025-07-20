@@ -40,7 +40,7 @@ const TagList: React.FC<TagListProps> = ({
         <div className="text-gray-400 text-base italic">{emptyText}</div>
       ) : (
         <ul data-slot="tags-list"
-          className="flex flex-wrap gap-3" role="list">
+          className="flex flex-wrap gap-3" >
           {visibleTags.map((tag, idx) => (
             <li key={tag} className="list-none">
               <TagItem tag={tag} index={idx} onTagClick={onTagClick} renderTag={renderTag} />

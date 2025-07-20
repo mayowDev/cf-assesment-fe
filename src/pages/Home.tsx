@@ -3,7 +3,7 @@ import HeroSection from "@/components/HeroSection";
 import TagList from "@/components/TagList";
 
 export default function Home() {
-  const [tags, setTags] = useState([
+  const [tags] = useState([
     "NFT",
     "Metaverse",
     "Sustainable",
